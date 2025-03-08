@@ -1,0 +1,301 @@
+0 verbose cli C:\Program Files\node.exe C:\Program Files\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:C:\Program Files\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Usuário\Documents\EBAC\python\Automatize tarefas com Grunt\Grunt\.npmrc
+5 silly config load:file:C:\Users\Usuário\.npmrc
+6 silly config load:file:C:\Users\Usuário\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install grunt-contrib-uglify
+8 verbose argv "install" "grunt-contrib-uglify" "--save-dev"
+9 verbose logfile logs-max:10 dir:C:\Users\Usuário\Documents\EBAC\python\Automatize tarefas com Grunt\Grunt\UsersDESKTOP-U9J66QUAppDataLocalnpm-cache\_logs\2025-03-08T20_49_26_513Z-
+10 verbose logfile C:\Users\Usuário\Documents\EBAC\python\Automatize tarefas com Grunt\Grunt\UsersDESKTOP-U9J66QUAppDataLocalnpm-cache\_logs\2025-03-08T20_49_26_513Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest grunt-contrib-uglify@*
+16 silly packumentCache full:https://registry.npmjs.org/grunt-contrib-uglify cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/grunt-contrib-uglify 1127ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/grunt-contrib-uglify set size:undefined disposed:false
+19 silly placeDep ROOT grunt-contrib-uglify@5.2.2 OK for: grunt@1.0.0 want: *
+20 silly fetch manifest maxmin@^3.0.0
+21 silly packumentCache full:https://registry.npmjs.org/maxmin cache-miss
+22 silly fetch manifest uri-path@^1.0.0
+23 silly packumentCache full:https://registry.npmjs.org/uri-path cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/uri-path 267ms (cache miss)
+25 silly packumentCache full:https://registry.npmjs.org/uri-path set size:undefined disposed:false
+26 http fetch GET 200 https://registry.npmjs.org/maxmin 756ms (cache miss)
+27 silly packumentCache full:https://registry.npmjs.org/maxmin set size:undefined disposed:false
+28 silly placeDep ROOT maxmin@3.0.0 OK for: grunt-contrib-uglify@5.2.2 want: ^3.0.0
+29 silly placeDep ROOT uri-path@1.0.0 OK for: grunt-contrib-uglify@5.2.2 want: ^1.0.0
+30 silly fetch manifest figures@^3.2.0
+31 silly packumentCache full:https://registry.npmjs.org/figures cache-miss
+32 silly fetch manifest gzip-size@^5.1.1
+33 silly packumentCache full:https://registry.npmjs.org/gzip-size cache-miss
+34 http fetch GET 200 https://registry.npmjs.org/figures 66ms (cache miss)
+35 silly packumentCache full:https://registry.npmjs.org/figures set size:undefined disposed:false
+36 http fetch GET 200 https://registry.npmjs.org/gzip-size 119ms (cache miss)
+37 silly packumentCache full:https://registry.npmjs.org/gzip-size set size:undefined disposed:false
+38 silly placeDep ROOT figures@3.2.0 OK for: maxmin@3.0.0 want: ^3.2.0
+39 silly placeDep ROOT gzip-size@5.1.1 OK for: maxmin@3.0.0 want: ^5.1.1
+40 silly fetch manifest duplexer@^0.1.1
+41 silly packumentCache full:https://registry.npmjs.org/duplexer cache-miss
+42 http fetch GET 200 https://registry.npmjs.org/duplexer 78ms (cache miss)
+43 silly packumentCache full:https://registry.npmjs.org/duplexer set size:undefined disposed:false
+44 silly placeDep ROOT duplexer@0.1.2 OK for: gzip-size@5.1.1 want: ^0.1.1
+45 silly reify moves {}
+46 silly audit bulk request {
+46 silly audit   grunt: [ '1.6.1' ],
+46 silly audit   abbrev: [ '1.1.1' ],
+46 silly audit   'ansi-styles': [ '4.3.0', '3.2.1' ],
+46 silly audit   applause: [ '2.0.4' ],
+46 silly audit   argparse: [ '2.0.1', '1.0.10' ],
+46 silly audit   'js-yaml': [ '4.1.0', '3.14.1' ],
+46 silly audit   'array-each': [ '1.0.1' ],
+46 silly audit   'array-slice': [ '1.1.0' ],
+46 silly audit   arrify: [ '2.0.1' ],
+46 silly audit   async: [ '3.2.6', '2.6.4' ],
+46 silly audit   'balanced-match': [ '1.0.2' ],
+46 silly audit   body: [ '5.1.0' ],
+46 silly audit   'brace-expansion': [ '1.1.11' ],
+46 silly audit   braces: [ '3.0.3' ],
+46 silly audit   bytes: [ '1.0.0' ],
+46 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+46 silly audit   'call-bound': [ '1.0.4' ],
+46 silly audit   'camel-case': [ '3.0.0' ],
+46 silly audit   chalk: [ '4.1.2', '2.4.2' ],
+46 silly audit   'clean-css': [ '4.2.4' ],
+46 silly audit   coffeescript: [ '1.12.7' ],
+46 silly audit   'color-convert': [ '2.0.1', '1.9.3' ],
+46 silly audit   'color-name': [ '1.1.4', '1.1.3' ],
+46 silly audit   colors: [ '1.1.2' ],
+46 silly audit   commander: [ '2.20.3' ],
+46 silly audit   'concat-map': [ '0.0.1' ],
+46 silly audit   'continuable-cache': [ '0.3.1' ],
+46 silly audit   'copy-anything': [ '2.0.6' ],
+46 silly audit   'core-util-is': [ '1.0.3' ],
+46 silly audit   'cross-spawn': [ '6.0.6' ],
+46 silly audit   which: [ '1.3.1', '2.0.2' ],
+46 silly audit   'cson-parser': [ '4.0.9' ],
+46 silly audit   dargs: [ '6.1.0' ],
+46 silly audit   dateformat: [ '4.6.3' ],
+46 silly audit   debug: [ '3.2.7' ],
+46 silly audit   'detect-file': [ '1.0.0' ],
+46 silly audit   'dunder-proto': [ '1.0.1' ],
+46 silly audit   duplexify: [ '3.7.1' ],
+46 silly audit   'end-of-stream': [ '1.4.4' ],
+46 silly audit   errno: [ '0.1.8' ],
+46 silly audit   error: [ '7.2.1' ],
+46 silly audit   'es-define-property': [ '1.0.1' ],
+46 silly audit   'es-errors': [ '1.3.0' ],
+46 silly audit   'es-object-atoms': [ '1.1.1' ],
+46 silly audit   'escape-string-regexp': [ '1.0.5' ],
+46 silly audit   esprima: [ '4.0.1' ],
+46 silly audit   eventemitter2: [ '0.4.14' ],
+46 silly audit   exit: [ '0.1.2' ],
+46 silly audit   'expand-tilde': [ '2.0.2' ],
+46 silly audit   extend: [ '3.0.2' ],
+46 silly audit   'faye-websocket': [ '0.10.0' ],
+46 silly audit   'file-sync-cmp': [ '0.1.1' ],
+46 silly audit   'fill-range': [ '7.1.1' ],
+46 silly audit   'findup-sync': [ '5.0.0', '4.0.0' ],
+46 silly audit   fined: [ '1.2.0' ],
+46 silly audit   'flagged-respawn': [ '1.0.1' ],
+46 silly audit   'for-in': [ '1.0.2' ],
+46 silly audit   'for-own': [ '1.0.0' ],
+46 silly audit   'fs.realpath': [ '1.0.0' ],
+46 silly audit   'function-bind': [ '1.1.2' ],
+46 silly audit   gaze: [ '1.1.3' ],
+46 silly audit   'get-intrinsic': [ '1.3.0' ],
+46 silly audit   'get-proto': [ '1.0.1' ],
+46 silly audit   getobject: [ '1.0.2' ],
+46 silly audit   glob: [ '7.1.7' ],
+46 silly audit   'global-modules': [ '1.0.0' ],
+46 silly audit   'global-prefix': [ '1.0.2' ],
+46 silly audit   globule: [ '1.3.4' ],
+46 silly audit   gopd: [ '1.2.0' ],
+46 silly audit   'graceful-fs': [ '4.2.11' ],
+46 silly audit   'grunt-cli': [ '1.4.3' ],
+46 silly audit   nopt: [ '4.0.3', '3.0.6' ],
+46 silly audit   'grunt-concurrent': [ '3.0.0' ],
+46 silly audit   'grunt-contrib-clean': [ '2.0.1' ],
+46 silly audit   'grunt-contrib-htmlmin': [ '3.1.0' ],
+46 silly audit   'has-flag': [ '3.0.0', '4.0.0' ],
+46 silly audit   'supports-color': [ '5.5.0', '7.2.0' ],
+46 silly audit   'grunt-contrib-less': [ '3.0.0' ],
+46 silly audit   'grunt-contrib-sass': [ '2.0.0' ],
+46 silly audit   'grunt-contrib-watch': [ '1.1.0' ],
+46 silly audit   'grunt-known-options': [ '2.0.0' ],
+46 silly audit   'grunt-legacy-log': [ '3.0.0' ],
+46 silly audit   'grunt-legacy-log-utils': [ '2.1.0' ],
+46 silly audit   'grunt-legacy-util': [ '2.0.1' ],
+46 silly audit   'grunt-replace': [ '2.0.2' ],
+46 silly audit   'has-symbols': [ '1.1.0' ],
+46 silly audit   hasown: [ '2.0.2' ],
+46 silly audit   he: [ '1.2.0' ],
+46 silly audit   'homedir-polyfill': [ '1.0.3' ],
+46 silly audit   hooker: [ '0.2.3' ],
+46 silly audit   'html-minifier': [ '4.0.0' ],
+46 silly audit   'http-parser-js': [ '0.5.9' ],
+46 silly audit   'iconv-lite': [ '0.6.3' ],
+46 silly audit   'image-size': [ '0.5.5' ],
+46 silly audit   'indent-string': [ '4.0.0' ],
+46 silly audit   inflight: [ '1.0.6' ],
+46 silly audit   inherits: [ '2.0.4' ],
+46 silly audit   ini: [ '1.3.8' ],
+46 silly audit   interpret: [ '1.1.0' ],
+46 silly audit   'is-absolute': [ '1.0.0' ],
+46 silly audit   'is-core-module': [ '2.16.1' ],
+46 silly audit   'is-extglob': [ '2.1.1' ],
+46 silly audit   'is-glob': [ '4.0.3' ],
+46 silly audit   'is-number': [ '7.0.0' ],
+46 silly audit   'is-plain-object': [ '2.0.4' ],
+46 silly audit   'is-relative': [ '1.0.0' ],
+46 silly audit   'is-unc-path': [ '1.0.0' ],
+46 silly audit   'is-what': [ '3.14.1' ],
+46 silly audit   'is-windows': [ '1.0.2' ],
+46 silly audit   isarray: [ '1.0.0' ],
+46 silly audit   isexe: [ '2.0.0' ],
+46 silly audit   isobject: [ '3.0.1' ],
+46 silly audit   'kind-of': [ '6.0.3' ],
+46 silly audit   less: [ '4.2.2' ],
+46 silly audit   liftup: [ '3.0.1' ],
+46 silly audit   'livereload-js': [ '2.4.0' ],
+46 silly audit   lodash: [ '4.17.21' ],
+46 silly audit   'lower-case': [ '1.1.4' ],
+46 silly audit   'make-dir': [ '2.1.0' ],
+46 silly audit   'make-iterator': [ '1.0.1' ],
+46 silly audit   'map-cache': [ '0.2.2' ],
+46 silly audit   'math-intrinsics': [ '1.1.0' ],
+46 silly audit   micromatch: [ '4.0.8' ],
+46 silly audit   mime: [ '1.6.0' ],
+46 silly audit   minimatch: [ '3.0.8' ],
+46 silly audit   ms: [ '2.1.3' ],
+46 silly audit   needle: [ '3.3.1' ],
+46 silly audit   'nice-try': [ '1.0.5' ],
+46 silly audit   'no-case': [ '2.3.2' ],
+46 silly audit   'object-assign': [ '4.1.1' ],
+46 silly audit   'object-inspect': [ '1.13.4' ],
+46 silly audit   'object.defaults': [ '1.1.0' ],
+46 silly audit   'object.map': [ '1.0.1' ],
+46 silly audit   'object.pick': [ '1.3.0' ],
+46 silly audit   once: [ '1.4.0' ],
+46 silly audit   'optional-require': [ '1.1.8' ],
+46 silly audit   'os-homedir': [ '1.0.2' ],
+46 silly audit   'os-tmpdir': [ '1.0.2' ],
+46 silly audit   osenv: [ '0.1.5' ],
+46 silly audit   'pad-stream': [ '2.0.0' ],
+46 silly audit   'param-case': [ '2.1.1' ],
+46 silly audit   'parse-filepath': [ '1.0.2' ],
+46 silly audit   'parse-node-version': [ '1.0.1' ],
+46 silly audit   'parse-passwd': [ '1.0.0' ],
+46 silly audit   'path-is-absolute': [ '1.0.1' ],
+46 silly audit   'path-key': [ '2.0.1' ],
+46 silly audit   'path-parse': [ '1.0.7' ],
+46 silly audit   'path-root': [ '0.1.1' ],
+46 silly audit   'path-root-regex': [ '0.1.2' ],
+46 silly audit   picomatch: [ '2.3.1' ],
+46 silly audit   pify: [ '4.0.1' ],
+46 silly audit   'pretty-bytes': [ '5.6.0' ],
+46 silly audit   'process-nextick-args': [ '2.0.1' ],
+46 silly audit   prr: [ '1.0.1' ],
+46 silly audit   pump: [ '2.0.1' ],
+46 silly audit   pumpify: [ '1.5.1' ],
+46 silly audit   qs: [ '6.14.0' ],
+46 silly audit   'raw-body': [ '1.1.7' ],
+46 silly audit   string_decoder: [ '0.10.31', '1.1.1' ],
+46 silly audit   'readable-stream': [ '2.3.8' ],
+46 silly audit   rechoir: [ '0.7.1' ],
+46 silly audit   relateurl: [ '0.2.7' ],
+46 silly audit   'require-at': [ '1.0.6' ],
+46 silly audit   resolve: [ '1.22.10' ],
+46 silly audit   'resolve-dir': [ '1.0.1' ],
+46 silly audit   rimraf: [ '2.7.1' ],
+46 silly audit   'safe-buffer': [ '5.1.2' ],
+46 silly audit   'safe-json-parse': [ '1.0.1' ],
+46 silly audit   'safer-buffer': [ '2.1.2' ],
+46 silly audit   sax: [ '1.4.1' ],
+46 silly audit   semver: [ '5.7.2' ],
+46 silly audit   'shebang-command': [ '1.2.0' ],
+46 silly audit   'shebang-regex': [ '1.0.0' ],
+46 silly audit   'side-channel': [ '1.1.0' ],
+46 silly audit   'side-channel-list': [ '1.0.0' ],
+46 silly audit   'side-channel-map': [ '1.0.1' ],
+46 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+46 silly audit   'source-map': [ '0.6.1' ],
+46 silly audit   split2: [ '2.2.0' ],
+46 silly audit   'sprintf-js': [ '1.0.3', '1.1.3' ],
+46 silly audit   'stream-shift': [ '1.0.3' ],
+46 silly audit   'string-template': [ '0.2.1' ],
+46 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+46 silly audit   through2: [ '2.0.5' ],
+46 silly audit   'tiny-lr': [ '1.1.1' ],
+46 silly audit   'to-regex-range': [ '5.0.1' ],
+46 silly audit   tslib: [ '2.8.1' ],
+46 silly audit   'uglify-js': [ '3.19.3' ],
+46 silly audit   'unc-path-regex': [ '0.1.2' ],
+46 silly audit   'underscore.string': [ '3.3.6' ],
+46 silly audit   'upper-case': [ '1.1.3' ],
+46 silly audit   'util-deprecate': [ '1.0.2' ],
+46 silly audit   v8flags: [ '3.2.0' ],
+46 silly audit   'websocket-driver': [ '0.7.4' ],
+46 silly audit   'websocket-extensions': [ '0.1.4' ],
+46 silly audit   wrappy: [ '1.0.2' ],
+46 silly audit   xtend: [ '4.0.2' ],
+46 silly audit   'grunt-contrib-uglify': [ '5.2.2' ],
+46 silly audit   maxmin: [ '3.0.0' ],
+46 silly audit   'uri-path': [ '1.0.0' ],
+46 silly audit   figures: [ '3.2.0' ],
+46 silly audit   'gzip-size': [ '5.1.1' ],
+46 silly audit   duplexer: [ '0.1.2' ]
+46 silly audit }
+47 http cache duplexer@https://registry.npmjs.org/duplexer/-/duplexer-0.1.2.tgz 0ms (cache hit)
+48 http cache gzip-size@https://registry.npmjs.org/gzip-size/-/gzip-size-5.1.1.tgz 0ms (cache hit)
+49 http cache figures@https://registry.npmjs.org/figures/-/figures-3.2.0.tgz 0ms (cache hit)
+50 http cache uri-path@https://registry.npmjs.org/uri-path/-/uri-path-1.0.0.tgz 0ms (cache hit)
+51 http cache maxmin@https://registry.npmjs.org/maxmin/-/maxmin-3.0.0.tgz 0ms (cache hit)
+52 silly tarball no local data for duplexer@https://registry.npmjs.org/duplexer/-/duplexer-0.1.2.tgz. Extracting by manifest.
+53 silly tarball no local data for gzip-size@https://registry.npmjs.org/gzip-size/-/gzip-size-5.1.1.tgz. Extracting by manifest.
+54 http cache grunt-contrib-uglify@https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-5.2.2.tgz 0ms (cache hit)
+55 silly tarball no local data for figures@https://registry.npmjs.org/figures/-/figures-3.2.0.tgz. Extracting by manifest.
+56 silly tarball no local data for uri-path@https://registry.npmjs.org/uri-path/-/uri-path-1.0.0.tgz. Extracting by manifest.
+57 silly tarball no local data for maxmin@https://registry.npmjs.org/maxmin/-/maxmin-3.0.0.tgz. Extracting by manifest.
+58 silly tarball no local data for grunt-contrib-uglify@https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-5.2.2.tgz. Extracting by manifest.
+59 http fetch GET 200 https://registry.npmjs.org/duplexer/-/duplexer-0.1.2.tgz 132ms (cache miss)
+60 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 234ms
+61 silly audit report {
+61 silly audit report   'html-minifier': [
+61 silly audit report     {
+61 silly audit report       id: 1100303,
+61 silly audit report       url: 'https://github.com/advisories/GHSA-pfq8-rq6v-vf5m',
+61 silly audit report       title: 'kangax html-minifier REDoS vulnerability',
+61 silly audit report       severity: 'high',
+61 silly audit report       vulnerable_versions: '<=4.0.0',
+61 silly audit report       cwe: [Array],
+61 silly audit report       cvss: [Object]
+61 silly audit report     }
+61 silly audit report   ]
+61 silly audit report }
+62 silly packumentCache corgi:https://registry.npmjs.org/html-minifier cache-miss
+63 http fetch GET 200 https://registry.npmjs.org/figures/-/figures-3.2.0.tgz 231ms (cache miss)
+64 http fetch GET 200 https://registry.npmjs.org/maxmin/-/maxmin-3.0.0.tgz 232ms (cache miss)
+65 http fetch GET 200 https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-5.2.2.tgz 273ms (cache miss)
+66 http fetch GET 200 https://registry.npmjs.org/gzip-size/-/gzip-size-5.1.1.tgz 280ms (cache miss)
+67 http fetch GET 200 https://registry.npmjs.org/uri-path/-/uri-path-1.0.0.tgz 282ms (cache miss)
+68 http fetch GET 200 https://registry.npmjs.org/html-minifier 917ms (cache updated)
+69 silly packumentCache corgi:https://registry.npmjs.org/html-minifier set size:undefined disposed:false
+70 silly packumentCache corgi:https://registry.npmjs.org/grunt-contrib-htmlmin cache-miss
+71 http fetch GET 200 https://registry.npmjs.org/grunt-contrib-htmlmin 723ms (cache updated)
+72 silly packumentCache corgi:https://registry.npmjs.org/grunt-contrib-htmlmin set size:undefined disposed:false
+73 silly ADD node_modules/duplexer
+74 silly ADD node_modules/gzip-size
+75 silly ADD node_modules/figures
+76 silly ADD node_modules/uri-path
+77 silly ADD node_modules/maxmin
+78 silly ADD node_modules/grunt-contrib-uglify
+79 verbose cwd C:\Users\Usuário\Documents\EBAC\python\Automatize tarefas com Grunt\Grunt
+80 verbose os Windows_NT 10.0.19045
+81 verbose node v22.14.0
+82 verbose npm  v10.9.2
+83 verbose exit 0
+84 info ok
